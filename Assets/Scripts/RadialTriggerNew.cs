@@ -79,7 +79,8 @@ public class RadialTriggerNew : MonoBehaviour
         {
             //DrawVector(Vector3.zero, player.position, Color.white, 1.5f);
             //DrawVector(Vector3.zero, transform.position, Color.white, 1.5f);
-        
+            
+            /*
             if(Vector3.Distance(transform.position, player.position) > radius)
             {
                 DrawVector(transform.position, player.position - transform.position, Color.green, .1f);
@@ -90,6 +91,7 @@ public class RadialTriggerNew : MonoBehaviour
                 DrawVector(transform.position, player.position - transform.position, Color.red, .1f);
                 Handles.color= Color.red;
             }
+            */
 
             Handles.DrawWireDisc(transform.position, new Vector3(0, 1, 0), radius);
 
